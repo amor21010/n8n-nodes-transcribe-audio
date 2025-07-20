@@ -36,7 +36,10 @@ const MODELS_LIST = [
 	'Xenova/whisper-tiny.en',
 	'Xenova/whisper-base.en',
 	'Xenova/whisper-small.en',
-	'Xenova/whisper-medium.en', // Medium and larger models can be demanding on CPU
+	'Xenova/whisper-medium.en',
+	'openai/whisper-small',
+	'openai/whisper-medium'
+	// Medium and larger models can be demanding on CPU
 	// You can add multilingual models too, e.g., 'Xenova/whisper-tiny' (without .en)
 	// 'Xenova/whisper-large-v3', // Very resource-intensive
 ];
